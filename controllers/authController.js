@@ -2,7 +2,7 @@ import User from '../model/userModel.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken'
 
-const secrete="NavinIsBetichod";
+const secrete="NavinIsBetichodAnd";
 
 export const signup=async(req,res)=>{
     const {name,email,password,mobileNumber}= req.body;
